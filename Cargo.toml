@@ -1,0 +1,73 @@
+[package]
+name = "codewars-rust"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "assembler_interpreter"
+path = "rust/assembler_interpreter.rs"
+
+[[bin]]
+name = "assembler_interpreter_part2"
+path = "rust/assembler_interpreter_part2.rs"
+
+[[bin]]
+name = "array_dot_diff"
+path = "rust/array_dot_diff.rs"
+
+[[bin]]
+name = "become_immortal"
+path = "rust/become_immortal.rs"
+
+[[bin]]
+name = "decode_the_morse_code"
+path = "rust/decode_the_morse_code.rs"
+
+[[bin]]
+name = "decode_the_morse_code_advanced"
+path = "rust/decode_the_morse_code_advanced.rs"
+
+[[bin]]
+name = "descending_order"
+path = "rust/descending_order.rs"
+
+[[bin]]
+name = "evaluate_math_expressions"
+path = "rust/evaluate_math_expressions.rs"
+
+[[bin]]
+name = "evaluate_postfix_expression"
+path = "rust/evaluate_postfix_expression.rs"
+
+[[bin]]
+name = "integer_depth"
+path = "rust/integer_depth.rs"
+
+[[bin]]
+name = "interactive_interpreter"
+path = "rust/interactive_interpreter.rs"
+
+[[bin]]
+name = "ones_and_zeros"
+path = "rust/ones_and_zeros.rs"
+
+[[bin]]
+name = "playing_with_digits"
+path = "rust/playing_with_digits.rs"
+
+[[bin]]
+name = "split_strings"
+path = "rust/split_strings.rs"
+
+[[bin]]
+name = "take_a_number_and_sum_its_digits_raised_to_the_consecutive_powers_and_eureka"
+path = "rust/take_a_number_and_sum_its_digits_raised_to_the_consecutive_powers_and_eureka.rs"
+
+[[bin]]
+name = "two_sum"
+path = "rust/two_sum.rs"
+
+
+
+[dependencies]
+regex = "1"
