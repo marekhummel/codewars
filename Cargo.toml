@@ -48,6 +48,10 @@ name = "interactive_interpreter"
 path = "rust/interactive_interpreter.rs"
 
 [[bin]]
+name = "is_a_number_prime"
+path = "rust/is_a_number_prime.rs"
+
+[[bin]]
 name = "ones_and_zeros"
 path = "rust/ones_and_zeros.rs"
 
