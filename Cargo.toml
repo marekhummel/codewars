@@ -20,6 +20,10 @@ name = "become_immortal"
 path = "rust/become_immortal.rs"
 
 [[bin]]
+name = "crack_the_pin"
+path = "rust/crack_the_pin.rs"
+
+[[bin]]
 name = "decode_the_morse_code"
 path = "rust/decode_the_morse_code.rs"
 
@@ -75,3 +79,6 @@ path = "rust/two_sum.rs"
 
 [dependencies]
 regex = "1"
+itertools = "0.10.5"
+lazy_static = "1.4.0"
+md5 = "0.7.0"
