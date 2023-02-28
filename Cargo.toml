@@ -44,6 +44,10 @@ name = "evaluate_postfix_expression"
 path = "rust/evaluate_postfix_expression.rs"
 
 [[bin]]
+name = "error_correction_no1_hamming"
+path = "rust/error_correction_no1_hamming.rs"
+
+[[bin]]
 name = "integer_depth"
 path = "rust/integer_depth.rs"
 
